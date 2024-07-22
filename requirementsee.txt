@@ -44,7 +44,7 @@ MarkupSafe==2.1.5
 matplotlib==3.9.1
 mpmath==1.3.0
 networkx==3.3
-numpy==1.24.3
+numpy==1.24.4
 oauthlib==3.2.2
 onnx==1.14.0
 onnxruntime==1.15.0
