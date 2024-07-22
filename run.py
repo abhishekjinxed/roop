@@ -37,7 +37,7 @@ def upload_file():
     image.save(image_path)
     video.save(video_path)
 
-    # Perform face swap using roop
+    # Perform face swap using roopf
     args = {
         'source_path': image_path,
         'target_path': video_path,
