@@ -17,7 +17,6 @@ import onnxruntime
 import tensorflow
 import roop.globals
 import roop.metadata
-import roop.ui as ui
 from roop.predictor import predict_image, predict_video
 from roop.processors.frame.core import get_frame_processors_modules
 from roop.utilities import has_image_extension, is_image, is_video, detect_fps, create_video, extract_frames, get_temp_frame_paths, restore_audio, create_temp, move_temp, clean_temp, normalize_output_path
@@ -239,5 +238,4 @@ def run(args=None) -> None:
     if roop.globals.headless:
         start()
     else:
-        window = ui.init(start, destroy)
         window.mainloop()
